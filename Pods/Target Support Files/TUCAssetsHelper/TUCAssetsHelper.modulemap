@@ -1,0 +1,6 @@
+framework module TUCAssetsHelper {
+  umbrella header "TUCAssetsHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

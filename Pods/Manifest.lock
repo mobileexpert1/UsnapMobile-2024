@@ -1,0 +1,303 @@
+PODS:
+  - ACEDrawingView (2.2.1)
+  - ADCountryPicker (2.1.0)
+  - Alamofire (4.5.1)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - BSGridCollectionViewLayout (1.2.2)
+  - BSImagePicker (2.8.2):
+    - BSGridCollectionViewLayout (= 1.2.2)
+    - BSImageView (= 1.0.2)
+  - BSImageView (1.0.2)
+  - Cosmos (12.0.1)
+  - Crashlytics (3.9.3):
+    - Fabric (~> 1.7.2)
+  - CreditCardValidator (0.4)
+  - CropViewController (2.5.2)
+  - CTAssetsPickerController (3.3.1):
+    - PureLayout (~> 3.0.0)
+  - DKCamera (1.6.6)
+  - DKImagePickerController (4.2.1):
+    - DKImagePickerController/Camera (= 4.2.1)
+    - DKImagePickerController/Core (= 4.2.1)
+    - DKImagePickerController/ImageDataManager (= 4.2.1)
+    - DKImagePickerController/InlineCamera (= 4.2.1)
+    - DKImagePickerController/PhotoEditor (= 4.2.1)
+    - DKImagePickerController/PhotoGallery (= 4.2.1)
+    - DKImagePickerController/Resource (= 4.2.1)
+  - DKImagePickerController/Camera (4.2.1):
+    - DKCamera
+    - DKImagePickerController/Core
+  - DKImagePickerController/Core (4.2.1):
+    - DKImagePickerController/ImageDataManager
+    - DKImagePickerController/Resource
+  - DKImagePickerController/ImageDataManager (4.2.1)
+  - DKImagePickerController/InlineCamera (4.2.1):
+    - DKCamera
+    - DKImagePickerController/Core
+  - DKImagePickerController/PhotoEditor (4.2.1):
+    - CropViewController (~> 2.5)
+    - DKImagePickerController/Core
+  - DKImagePickerController/PhotoGallery (4.2.1):
+    - DKImagePickerController/Core
+    - DKPhotoGallery
+  - DKImagePickerController/Resource (4.2.1)
+  - DKPhotoGallery (0.0.12):
+    - DKPhotoGallery/Core (= 0.0.12)
+    - DKPhotoGallery/Model (= 0.0.12)
+    - DKPhotoGallery/Preview (= 0.0.12)
+    - DKPhotoGallery/Resource (= 0.0.12)
+    - SDWebImage/GIF
+  - DKPhotoGallery/Core (0.0.12):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage/GIF
+  - DKPhotoGallery/Model (0.0.12):
+    - SDWebImage/GIF
+  - DKPhotoGallery/Preview (0.0.12):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage/GIF
+  - DKPhotoGallery/Resource (0.0.12):
+    - SDWebImage/GIF
+  - DropDown (2.3.13)
+  - Fabric (1.7.2)
+  - FacebookCore (0.5.0):
+    - Bolts (~> 1.9)
+    - FBSDKCoreKit (~> 4.37)
+  - FacebookLogin (0.5.0):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.5)
+    - FBSDKCoreKit (~> 4.37)
+    - FBSDKLoginKit (~> 4.37)
+  - FacebookSDK (4.38.0):
+    - Bolts (~> 1.9)
+    - FacebookSDK/CoreKit (= 4.38.0)
+    - FacebookSDK/MarketingKit (= 4.38.0)
+  - FacebookSDK/CoreKit (4.38.0):
+    - Bolts (~> 1.9)
+    - FBSDKCoreKit
+  - FacebookSDK/MarketingKit (4.38.0):
+    - Bolts (~> 1.9)
+    - FacebookSDK/CoreKit
+    - FBSDKMarketingKit
+  - FacebookShare (0.5.0):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.5)
+    - FBSDKCoreKit (~> 4.37)
+    - FBSDKShareKit (~> 4.37)
+  - FBSDKCoreKit (4.40.0):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.40.0):
+    - FBSDKCoreKit
+  - FBSDKMarketingKit (4.38.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.40.0):
+    - FBSDKCoreKit
+  - FirebaseAnalytics (3.9.0):
+    - FirebaseCore (~> 3.6)
+    - FirebaseInstanceID (~> 1.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseCore (3.6.0):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (1.0.10):
+    - FirebaseCore (~> 3.6)
+  - FLAnimatedImage (1.0.12)
+  - Google/Core (3.1.0):
+    - FirebaseAnalytics (~> 3.2)
+  - Google/SignIn (3.1.0):
+    - Google/Core
+    - GoogleSignIn (~> 4.0)
+  - GoogleMaps (3.1.0):
+    - GoogleMaps/Maps (= 3.1.0)
+  - GoogleMaps/Base (3.1.0)
+  - GoogleMaps/Maps (3.1.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (3.1.0):
+    - GoogleMaps (= 3.1.0)
+    - GooglePlaces (= 3.1.0)
+  - GooglePlaces (3.1.0):
+    - GoogleMaps/Base (= 3.1.0)
+  - GooglePlacesSearchController (0.1.7)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.0):
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - GoogleToolboxForMac/Defines (2.2.0)
+  - "GoogleToolboxForMac/NSData+zlib (2.2.0)":
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.0)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.0)
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.0)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.0)"
+  - GSImageViewerController (1.4.1)
+  - GTMSessionFetcher/Core (1.2.1)
+  - ImagePicker (3.2.0)
+  - ImageScrollView (1.4)
+  - IQKeyboardManagerSwift (5.0.6)
+  - OpalImagePicker (1.5.0)
+  - PureLayout (3.0.2)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+  - SDWebImage/GIF (4.4.6):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
+  - SideMenuSwift (2.0.9)
+  - SVProgressHUD (2.2.2)
+  - SwiftyJSON (4.0.0)
+  - TUCAssetsHelper (0.0.2)
+  - "UITextView+Placeholder (1.3.3)"
+  - youtube-ios-player-helper (0.1.6)
+
+DEPENDENCIES:
+  - ACEDrawingView
+  - ADCountryPicker (~> 2.1.0)
+  - Alamofire (~> 4.5)
+  - BSImagePicker (~> 2.8)
+  - Cosmos
+  - Crashlytics
+  - CreditCardValidator
+  - CTAssetsPickerController (~> 3.3.0)
+  - DKImagePickerController
+  - DropDown
+  - Fabric
+  - FacebookCore
+  - FacebookLogin
+  - FacebookSDK
+  - FacebookShare
+  - FBSDKLoginKit
+  - Google/SignIn
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - GooglePlacesSearchController
+  - GoogleSignIn
+  - GSImageViewerController
+  - ImagePicker
+  - ImageScrollView
+  - IQKeyboardManagerSwift
+  - OpalImagePicker (~> 1.5.0)
+  - SDWebImage (~> 4.0)
+  - SideMenuSwift
+  - SVProgressHUD
+  - SwiftyJSON
+  - TUCAssetsHelper
+  - "UITextView+Placeholder"
+  - youtube-ios-player-helper (~> 0.1.6)
+
+SPEC REPOS:
+  trunk:
+    - ACEDrawingView
+    - ADCountryPicker
+    - Alamofire
+    - Bolts
+    - BSGridCollectionViewLayout
+    - BSImagePicker
+    - BSImageView
+    - Cosmos
+    - Crashlytics
+    - CreditCardValidator
+    - CropViewController
+    - CTAssetsPickerController
+    - DKCamera
+    - DKImagePickerController
+    - DKPhotoGallery
+    - DropDown
+    - Fabric
+    - FacebookCore
+    - FacebookLogin
+    - FacebookSDK
+    - FacebookShare
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKMarketingKit
+    - FBSDKShareKit
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FLAnimatedImage
+    - Google
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - GooglePlacesSearchController
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GSImageViewerController
+    - GTMSessionFetcher
+    - ImagePicker
+    - ImageScrollView
+    - IQKeyboardManagerSwift
+    - OpalImagePicker
+    - PureLayout
+    - SDWebImage
+    - SideMenuSwift
+    - SVProgressHUD
+    - SwiftyJSON
+    - TUCAssetsHelper
+    - "UITextView+Placeholder"
+    - youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  ACEDrawingView: fa6e8461682a54db3ac65151474fc77ef7e54fd2
+  ADCountryPicker: 502cee76a30ea1c3834eb0df170ce635691655c9
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  BSGridCollectionViewLayout: 3e6f23b3a2b4f0ca9afae09ca01389d1057f7b32
+  BSImagePicker: 9eb93c32c4ebd6c6d6b53c2f58141541a2fe9167
+  BSImageView: ab22ff8cae61f1ae17a3c9efeeb216af3cf84a09
+  Cosmos: 4a9f57998a08788a1062c7b8eefbc62d2b590f39
+  Crashlytics: 4689af8a6a5befe1e0d2c7e72681805cc43eb7e4
+  CreditCardValidator: 9f0814dd61682c004071a250d89327ca83514a48
+  CropViewController: 1aac40093c5739e60d992b04724a55d12a689a4c
+  CTAssetsPickerController: b1d1d50ab87cf6b8b13531de5f4530482e7e53ed
+  DKCamera: d6fad4db4b25c00eefe6904e9c86a926034d0c62
+  DKImagePickerController: faddfe5b1240ed5fa05b6001169e60ed9b5b2df7
+  DKPhotoGallery: 1b4d65d9a485dfdd2002f22daa5b955eafb350ea
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  Fabric: e25cc44b28b9a4d8895cfc623834d3c01d2237df
+  FacebookCore: 74288d0add931d361b1596beae787ab72c438249
+  FacebookLogin: ebcf34714a1cb9f0759d9f071cfb01ed500996cf
+  FacebookSDK: 73f54b8b94e09b05647cdef0af147f470cd3edc6
+  FacebookShare: 963b4bb1124a64a395b1e428163d70b5774116e8
+  FBSDKCoreKit: ae214474b25033399c131dc81d258e412582a2ba
+  FBSDKLoginKit: 7a1e411d46acc8834588eca437daf34de42e1d52
+  FBSDKMarketingKit: e609f39d74ab273cf52e2f8b7e8829ed412b2827
+  FBSDKShareKit: 0e45916f4150da485928ae2a17ca021950b194f5
+  FirebaseAnalytics: e5fe8486efc01bec33f6bf82e2fa9fce4b124052
+  FirebaseCore: 9691ee2ade70c098d7cf92440f4303f16d83ca75
+  FirebaseInstanceID: b9eedd6846fb5e1f0f7279e1deaa7a7e4cf8392e
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  Google: 98da4b1a60ed0beb80a290387a28333406a1eb90
+  GoogleMaps: 5c13302e6fe6bb6e686b267196586b91cd594225
+  GooglePlacePicker: fa975116ac202ac29822c0a79758ea1c4db5a95f
+  GooglePlaces: e874db179f2675c4f3eeda0b686b540273a578b0
+  GooglePlacesSearchController: 0ac4fedf1582d2e44329c417a6eed80ccf62d716
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GSImageViewerController: 84a3145d7e4ff94399293ba61949215c7c582dc1
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  ImagePicker: 1d950bbb2422548ed58791b4ec7f42fe42920511
+  ImageScrollView: 887523542097173da75172774e9800ee473bdccd
+  IQKeyboardManagerSwift: 02bfbb0dff71c66d0ab77d80d25dfce0c3717735
+  OpalImagePicker: 0fb2caaa4386524eef1b7979aebebd3ad0a27ef1
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  SideMenuSwift: 39f1922e225da4aaa8b16591037a929defe960c9
+  SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  TUCAssetsHelper: e246f8b7f3d9c3da6e457df77e741783d7eae3b4
+  "UITextView+Placeholder": c407b27599ea23cca425946fee3cf1db5d547008
+  youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
+
+PODFILE CHECKSUM: d91e012115c3a3d4ab8cbb5429396ac8d76b566c
+
+COCOAPODS: 1.15.2

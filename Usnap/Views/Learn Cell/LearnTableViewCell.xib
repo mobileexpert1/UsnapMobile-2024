@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GOTHICB_7.TTF">
+            <string>CenturyGothic-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LearnTableViewCell" rowHeight="240" id="KGk-i7-Jjw" customClass="LearnTableViewCell" customModule="Usnap" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="240"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="239.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y9s-kL-xmR" customClass="YTPlayerView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="238.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jsp-mR-BJR">
+                                <rect key="frame" x="5" y="5" width="310" height="17.5"/>
+                                <fontDescription key="fontDescription" name="CenturyGothic-Bold" family="Century Gothic" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView hidden="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="suf-R5-CqW">
+                                <rect key="frame" x="5" y="27.5" width="310" height="211"/>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYg-NC-8e4">
+                                <rect key="frame" x="146" y="119" width="29" height="29"/>
+                                <state key="normal" image="PlayButton"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QYg-NC-8e4" firstAttribute="centerX" secondItem="suf-R5-CqW" secondAttribute="centerX" id="2sQ-6n-MFq"/>
+                            <constraint firstItem="QYg-NC-8e4" firstAttribute="centerY" secondItem="suf-R5-CqW" secondAttribute="centerY" id="306-I8-dS4"/>
+                            <constraint firstAttribute="trailing" secondItem="Jsp-mR-BJR" secondAttribute="trailing" constant="5" id="68j-SW-jYY"/>
+                            <constraint firstItem="suf-R5-CqW" firstAttribute="leading" secondItem="Y9s-kL-xmR" secondAttribute="leading" constant="5" id="7xy-8V-t4h"/>
+                            <constraint firstAttribute="bottom" secondItem="suf-R5-CqW" secondAttribute="bottom" id="D2Q-E9-9UU"/>
+                            <constraint firstItem="Jsp-mR-BJR" firstAttribute="top" secondItem="Y9s-kL-xmR" secondAttribute="top" constant="5" id="Vn9-SB-8DM"/>
+                            <constraint firstAttribute="trailing" secondItem="suf-R5-CqW" secondAttribute="trailing" constant="5" id="ZkT-ld-Vex"/>
+                            <constraint firstItem="Jsp-mR-BJR" firstAttribute="leading" secondItem="Y9s-kL-xmR" secondAttribute="leading" constant="5" id="nqh-gg-xpl"/>
+                            <constraint firstItem="suf-R5-CqW" firstAttribute="top" secondItem="Jsp-mR-BJR" secondAttribute="bottom" constant="5" id="sIV-6c-8QF"/>
+                            <constraint firstItem="suf-R5-CqW" firstAttribute="top" secondItem="Jsp-mR-BJR" secondAttribute="bottom" constant="5" id="v5o-tB-VOy"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="Y9s-kL-xmR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="C1J-gP-vid"/>
+                    <constraint firstAttribute="trailing" secondItem="Y9s-kL-xmR" secondAttribute="trailing" id="Lsi-BP-Rx9"/>
+                    <constraint firstAttribute="bottom" secondItem="Y9s-kL-xmR" secondAttribute="bottom" constant="1" id="Z1Q-bk-Wfh"/>
+                    <constraint firstItem="Y9s-kL-xmR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="faS-o7-JtV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="playVideo" destination="QYg-NC-8e4" id="Cke-u9-Dcm"/>
+                <outlet property="titleLabel" destination="Jsp-mR-BJR" id="NVP-kF-cHi"/>
+                <outlet property="videoPlayer" destination="Y9s-kL-xmR" id="ptc-MN-TZB"/>
+                <outlet property="videoThumbnail" destination="suf-R5-CqW" id="EP4-Yj-Mx3"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="150"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="PlayButton" width="29" height="29"/>
+    </resources>
+</document>

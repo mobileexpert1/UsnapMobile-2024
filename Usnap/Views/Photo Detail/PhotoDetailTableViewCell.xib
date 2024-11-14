@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GOTHIC_9.TTF">
+            <string>CenturyGothic</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PhotoDetailTableViewCell" rowHeight="166" id="KGk-i7-Jjw" customClass="PhotoDetailTableViewCell" customModule="Usnap" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="166"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="165.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dZN-0D-KPH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="160.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. Retouched Photo " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xlD-k6-0fp">
+                                <rect key="frame" x="10" y="5" width="300" height="22"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="247" image="DummyVideo" translatesAutoresizingMaskIntoConstraints="NO" id="oqd-HJ-Y6j">
+                                <rect key="frame" x="10" y="32" width="300" height="102"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="oqd-HJ-Y6j" secondAttribute="height" multiplier="50:17" id="DO2-zd-GL4"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="1. Retouched Photo " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fxi-5h-fYv">
+                                <rect key="frame" x="10" y="139" width="300" height="18.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xlD-k6-0fp" firstAttribute="top" secondItem="dZN-0D-KPH" secondAttribute="top" constant="5" id="0Pf-vo-SQz"/>
+                            <constraint firstItem="oqd-HJ-Y6j" firstAttribute="leading" secondItem="dZN-0D-KPH" secondAttribute="leading" constant="10" id="2WT-Xh-jYf"/>
+                            <constraint firstItem="xlD-k6-0fp" firstAttribute="leading" secondItem="dZN-0D-KPH" secondAttribute="leading" constant="10" id="FmP-iR-ylU"/>
+                            <constraint firstItem="oqd-HJ-Y6j" firstAttribute="top" secondItem="xlD-k6-0fp" secondAttribute="bottom" constant="5" id="Pyl-xN-rHH"/>
+                            <constraint firstAttribute="bottom" secondItem="Fxi-5h-fYv" secondAttribute="bottom" constant="3" id="gVE-0o-vlS"/>
+                            <constraint firstItem="Fxi-5h-fYv" firstAttribute="leading" secondItem="dZN-0D-KPH" secondAttribute="leading" constant="10" id="gq0-3N-SYH"/>
+                            <constraint firstItem="Fxi-5h-fYv" firstAttribute="top" secondItem="oqd-HJ-Y6j" secondAttribute="bottom" constant="5" id="lVa-uw-p2c"/>
+                            <constraint firstAttribute="trailing" secondItem="xlD-k6-0fp" secondAttribute="trailing" constant="10" id="lhq-pR-0mC"/>
+                            <constraint firstAttribute="trailing" secondItem="oqd-HJ-Y6j" secondAttribute="trailing" constant="10" id="tp0-S0-ec3"/>
+                            <constraint firstAttribute="trailing" secondItem="Fxi-5h-fYv" secondAttribute="trailing" constant="10" id="wIv-g3-K5x"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="dZN-0D-KPH" secondAttribute="trailing" id="X5T-bZ-7fq"/>
+                    <constraint firstItem="dZN-0D-KPH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="gj3-2u-yDB"/>
+                    <constraint firstAttribute="bottom" secondItem="dZN-0D-KPH" secondAttribute="bottom" constant="5" id="lWz-C6-ksd"/>
+                    <constraint firstItem="dZN-0D-KPH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="zXy-4m-oOQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bottomLabel" destination="Fxi-5h-fYv" id="jHP-gt-sol"/>
+                <outlet property="thumbNailImageView" destination="oqd-HJ-Y6j" id="hlK-MN-i5e"/>
+                <outlet property="topLabel" destination="xlD-k6-0fp" id="jvH-bl-QEV"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="113"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="DummyVideo" width="312" height="180"/>
+    </resources>
+</document>

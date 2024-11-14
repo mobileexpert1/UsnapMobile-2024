@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GOTHIC_9.TTF">
+            <string>CenturyGothic</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="PricingCell" customModule="Usnap" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Retouching a Photo :" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3S-St-T3z">
+                        <rect key="frame" x="10" y="10" width="170" height="24"/>
+                        <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CiC-Bh-5m6">
+                        <rect key="frame" x="190" y="14" width="120" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="6ff-mj-8x6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="CiC-Bh-5m6" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="JGF-1n-OzJ"/>
+                    <constraint firstAttribute="bottom" secondItem="Y3S-St-T3z" secondAttribute="bottom" constant="10" id="M8k-Dn-Zdy"/>
+                    <constraint firstItem="Y3S-St-T3z" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="OUa-Vy-ahb"/>
+                    <constraint firstAttribute="trailing" secondItem="CiC-Bh-5m6" secondAttribute="trailing" constant="10" id="X6T-po-mFB"/>
+                    <constraint firstItem="CiC-Bh-5m6" firstAttribute="leading" secondItem="Y3S-St-T3z" secondAttribute="trailing" constant="10" id="tKq-0S-ycP"/>
+                    <constraint firstItem="Y3S-St-T3z" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="yQb-PA-nME"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="amount_Lbl" destination="CiC-Bh-5m6" id="eTK-mu-1Yd"/>
+                <outlet property="title_Lbl" destination="Y3S-St-T3z" id="Bfv-0q-PIU"/>
+            </connections>
+            <point key="canvasLocation" x="-14" y="-11"/>
+        </tableViewCell>
+    </objects>
+</document>

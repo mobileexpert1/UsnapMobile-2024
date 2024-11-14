@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GOTHICB_7.TTF">
+            <string>CenturyGothic-Bold</string>
+        </array>
+        <array key="GOTHIC_9.TTF">
+            <string>CenturyGothic</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="StaffInvoicesTableViewCell" rowHeight="222" id="KGk-i7-Jjw" customClass="StaffInvoicesTableViewCell" customModule="Usnap" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="222"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="221.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YTb-p0-z1j">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="216.5"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8E-sL-evO">
+                                <rect key="frame" x="10" y="10" width="20" height="55.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="pO6-h6-Ukh"/>
+                                </constraints>
+                                <state key="normal" image="RadioOff"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Retoucher Invoices :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g5B-J4-hoR">
+                                <rect key="frame" x="40" y="28" width="148" height="18.5"/>
+                                <fontDescription key="fontDescription" name="CenturyGothic-Bold" family="Century Gothic" pointSize="15"/>
+                                <color key="textColor" red="0.27843137254901962" green="0.27058823529411763" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="INV0000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8W3-ss-vlI">
+                                <rect key="frame" x="193" y="28.5" width="122" height="18.5"/>
+                                <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="14"/>
+                                <color key="textColor" red="0.27843137254901962" green="0.27058823529411763" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Campaign :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pSb-6y-Gvg">
+                                <rect key="frame" x="40" y="57" width="86.5" height="18.5"/>
+                                <fontDescription key="fontDescription" name="CenturyGothic-Bold" family="Century Gothic" pointSize="15"/>
+                                <color key="textColor" red="0.2784313725" green="0.27058823529999998" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="INV0000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ofR-rR-fj0">
+                                <rect key="frame" x="131.5" y="57" width="183.5" height="18.5"/>
+                                <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="14"/>
+                                <color key="textColor" red="0.2784313725" green="0.27058823529999998" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABw-A8-PFB">
+                                <rect key="frame" x="40" y="85.5" width="66" height="18.5"/>
+                                <fontDescription key="fontDescription" name="CenturyGothic-Bold" family="Century Gothic" pointSize="15"/>
+                                <color key="textColor" red="0.2784313725" green="0.27058823529999998" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="INV0000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gU6-7t-scB">
+                                <rect key="frame" x="111" y="85.5" width="204" height="18.5"/>
+                                <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="14"/>
+                                <color key="textColor" red="0.2784313725" green="0.27058823529999998" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBr-8e-uCQ">
+                                <rect key="frame" x="40" y="114" width="43" height="18.5"/>
+                                <fontDescription key="fontDescription" name="CenturyGothic-Bold" family="Century Gothic" pointSize="15"/>
+                                <color key="textColor" red="0.2784313725" green="0.27058823529999998" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="INV0000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Af-wc-fXh">
+                                <rect key="frame" x="88" y="114" width="227" height="18.5"/>
+                                <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="14"/>
+                                <color key="textColor" red="0.2784313725" green="0.27058823529999998" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cy0-tX-dxE">
+                                <rect key="frame" x="0.0" y="171" width="320" height="1"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="JtC-jI-62b"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q3S-wp-9rK">
+                                <rect key="frame" x="0.0" y="174" width="320" height="42.5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wPT-Sr-pRQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="89.5" height="42.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uIC-g3-eVm">
+                                        <rect key="frame" x="89.5" y="10" width="25" height="22"/>
+                                        <state key="normal" image="DownloadIcon"/>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GEl-hC-7f0">
+                                        <rect key="frame" x="114.5" y="0.0" width="29.5" height="42.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vfI-J0-uPe">
+                                        <rect key="frame" x="144" y="10" width="25" height="22.5"/>
+                                        <state key="normal" image="ShareIcon"/>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ovg-uW-sxO">
+                                        <rect key="frame" x="169" y="0.0" width="29.5" height="42.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TC7-5g-ztC">
+                                        <rect key="frame" x="199.5" y="10" width="25" height="22.5"/>
+                                        <state key="normal" image="ResendEmail"/>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rmm-Q0-4T3">
+                                        <rect key="frame" x="230.5" y="0.0" width="89.5" height="42.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="ovg-uW-sxO" secondAttribute="bottom" id="1mo-db-h2s"/>
+                                    <constraint firstItem="vfI-J0-uPe" firstAttribute="top" secondItem="Q3S-wp-9rK" secondAttribute="top" constant="10" id="8Yd-yN-2t8"/>
+                                    <constraint firstItem="GEl-hC-7f0" firstAttribute="width" secondItem="wPT-Sr-pRQ" secondAttribute="width" multiplier="0.33" id="9WP-Ce-O67"/>
+                                    <constraint firstAttribute="bottom" secondItem="vfI-J0-uPe" secondAttribute="bottom" constant="10" id="JFE-tc-SdS"/>
+                                    <constraint firstItem="TC7-5g-ztC" firstAttribute="leading" secondItem="ovg-uW-sxO" secondAttribute="trailing" constant="1" id="L7Y-K6-w13"/>
+                                    <constraint firstItem="uIC-g3-eVm" firstAttribute="top" secondItem="Q3S-wp-9rK" secondAttribute="top" constant="10" id="MAX-7o-kFp"/>
+                                    <constraint firstAttribute="trailing" secondItem="Rmm-Q0-4T3" secondAttribute="trailing" id="NXb-Wc-AOx"/>
+                                    <constraint firstAttribute="bottom" secondItem="TC7-5g-ztC" secondAttribute="bottom" constant="10" id="Tw1-dB-8YL"/>
+                                    <constraint firstAttribute="bottom" secondItem="wPT-Sr-pRQ" secondAttribute="bottom" id="UwX-Au-BSw"/>
+                                    <constraint firstItem="wPT-Sr-pRQ" firstAttribute="top" secondItem="Q3S-wp-9rK" secondAttribute="top" id="WZr-Lm-Kdb"/>
+                                    <constraint firstItem="GEl-hC-7f0" firstAttribute="leading" secondItem="uIC-g3-eVm" secondAttribute="trailing" id="bBe-VL-CrD"/>
+                                    <constraint firstAttribute="bottom" secondItem="GEl-hC-7f0" secondAttribute="bottom" id="c4L-ci-c6U"/>
+                                    <constraint firstItem="ovg-uW-sxO" firstAttribute="height" secondItem="GEl-hC-7f0" secondAttribute="height" id="cuz-73-pqT"/>
+                                    <constraint firstAttribute="bottom" secondItem="uIC-g3-eVm" secondAttribute="bottom" constant="10.5" id="fQ5-Tf-6Xp"/>
+                                    <constraint firstItem="ovg-uW-sxO" firstAttribute="leading" secondItem="vfI-J0-uPe" secondAttribute="trailing" id="gWR-rR-5g2"/>
+                                    <constraint firstItem="wPT-Sr-pRQ" firstAttribute="leading" secondItem="Q3S-wp-9rK" secondAttribute="leading" id="ibe-86-7Ol"/>
+                                    <constraint firstItem="Rmm-Q0-4T3" firstAttribute="top" secondItem="Q3S-wp-9rK" secondAttribute="top" id="ih1-Dp-Vgk"/>
+                                    <constraint firstItem="TC7-5g-ztC" firstAttribute="top" secondItem="Q3S-wp-9rK" secondAttribute="top" constant="10" id="kTE-sU-fOm"/>
+                                    <constraint firstAttribute="bottom" secondItem="Rmm-Q0-4T3" secondAttribute="bottom" id="kcT-rn-DFi"/>
+                                    <constraint firstItem="vfI-J0-uPe" firstAttribute="leading" secondItem="GEl-hC-7f0" secondAttribute="trailing" id="nyA-Ar-pU2"/>
+                                    <constraint firstItem="uIC-g3-eVm" firstAttribute="leading" secondItem="wPT-Sr-pRQ" secondAttribute="trailing" id="rEF-LH-d94"/>
+                                    <constraint firstItem="Rmm-Q0-4T3" firstAttribute="width" secondItem="wPT-Sr-pRQ" secondAttribute="width" id="spm-nX-lbP"/>
+                                    <constraint firstItem="ovg-uW-sxO" firstAttribute="width" secondItem="GEl-hC-7f0" secondAttribute="width" id="wZC-DC-gF2"/>
+                                    <constraint firstItem="GEl-hC-7f0" firstAttribute="top" secondItem="Q3S-wp-9rK" secondAttribute="top" id="wjn-hT-ofa"/>
+                                    <constraint firstItem="wPT-Sr-pRQ" firstAttribute="width" secondItem="Q3S-wp-9rK" secondAttribute="width" multiplier="0.28" id="xLs-06-IEJ"/>
+                                    <constraint firstItem="ovg-uW-sxO" firstAttribute="top" secondItem="Q3S-wp-9rK" secondAttribute="top" id="zeQ-u8-VPL"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uMI-SZ-kBr">
+                                <rect key="frame" x="40" y="142.5" width="51" height="18.5"/>
+                                <fontDescription key="fontDescription" name="CenturyGothic-Bold" family="Century Gothic" pointSize="15"/>
+                                <color key="textColor" red="0.2784313725" green="0.27058823529999998" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="INV0000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZW-Hx-U9h">
+                                <rect key="frame" x="96" y="143" width="219" height="18.5"/>
+                                <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="14"/>
+                                <color key="textColor" red="0.2784313725" green="0.27058823529999998" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tBr-8e-uCQ" firstAttribute="leading" secondItem="ABw-A8-PFB" secondAttribute="leading" id="3QE-SR-oyM"/>
+                            <constraint firstItem="Q3S-wp-9rK" firstAttribute="leading" secondItem="YTb-p0-z1j" secondAttribute="leading" id="5Z2-ut-hJL"/>
+                            <constraint firstItem="8W3-ss-vlI" firstAttribute="centerY" secondItem="g5B-J4-hoR" secondAttribute="centerY" id="64w-dk-akW"/>
+                            <constraint firstItem="gU6-7t-scB" firstAttribute="centerY" secondItem="ABw-A8-PFB" secondAttribute="centerY" id="8Jq-IJ-bAG"/>
+                            <constraint firstItem="lZW-Hx-U9h" firstAttribute="leading" secondItem="uMI-SZ-kBr" secondAttribute="trailing" constant="5" id="9ua-g9-HNX"/>
+                            <constraint firstItem="uMI-SZ-kBr" firstAttribute="leading" secondItem="tBr-8e-uCQ" secondAttribute="leading" id="A9A-d7-DE5"/>
+                            <constraint firstItem="uMI-SZ-kBr" firstAttribute="top" secondItem="tBr-8e-uCQ" secondAttribute="bottom" constant="10" id="D5W-zw-kxj"/>
+                            <constraint firstAttribute="trailing" secondItem="3Af-wc-fXh" secondAttribute="trailing" constant="5" id="F5L-p9-RgS"/>
+                            <constraint firstAttribute="bottom" secondItem="Q3S-wp-9rK" secondAttribute="bottom" id="Fhh-Vg-Heo"/>
+                            <constraint firstItem="lZW-Hx-U9h" firstAttribute="centerY" secondItem="uMI-SZ-kBr" secondAttribute="centerY" id="GGI-4U-YsR"/>
+                            <constraint firstItem="ABw-A8-PFB" firstAttribute="top" secondItem="pSb-6y-Gvg" secondAttribute="bottom" constant="10" id="ICn-hl-Wlx"/>
+                            <constraint firstItem="ofR-rR-fj0" firstAttribute="centerY" secondItem="pSb-6y-Gvg" secondAttribute="centerY" id="IeI-dG-R0H"/>
+                            <constraint firstItem="pSb-6y-Gvg" firstAttribute="top" secondItem="g5B-J4-hoR" secondAttribute="bottom" constant="10" id="LaG-eH-iIf"/>
+                            <constraint firstItem="3Af-wc-fXh" firstAttribute="centerY" secondItem="tBr-8e-uCQ" secondAttribute="centerY" id="N0t-jA-TgE"/>
+                            <constraint firstItem="R8E-sL-evO" firstAttribute="leading" secondItem="YTb-p0-z1j" secondAttribute="leading" constant="10" id="N9o-GE-xM6"/>
+                            <constraint firstItem="lZW-Hx-U9h" firstAttribute="height" secondItem="3Af-wc-fXh" secondAttribute="height" id="NPx-92-CzG"/>
+                            <constraint firstItem="3Af-wc-fXh" firstAttribute="leading" secondItem="tBr-8e-uCQ" secondAttribute="trailing" constant="5" id="Oar-QX-w1y"/>
+                            <constraint firstAttribute="trailing" secondItem="Q3S-wp-9rK" secondAttribute="trailing" id="PoZ-MB-MUl"/>
+                            <constraint firstItem="Q3S-wp-9rK" firstAttribute="top" secondItem="cy0-tX-dxE" secondAttribute="bottom" constant="2" id="RfE-yr-ads"/>
+                            <constraint firstItem="ABw-A8-PFB" firstAttribute="leading" secondItem="pSb-6y-Gvg" secondAttribute="leading" id="U6i-KF-tBs"/>
+                            <constraint firstAttribute="trailing" secondItem="8W3-ss-vlI" secondAttribute="trailing" constant="5" id="UPM-Lk-a03"/>
+                            <constraint firstItem="3Af-wc-fXh" firstAttribute="height" secondItem="tBr-8e-uCQ" secondAttribute="height" id="YaB-Dk-AVp"/>
+                            <constraint firstItem="ofR-rR-fj0" firstAttribute="leading" secondItem="pSb-6y-Gvg" secondAttribute="trailing" constant="5" id="aDv-hG-ite"/>
+                            <constraint firstItem="g5B-J4-hoR" firstAttribute="centerY" secondItem="R8E-sL-evO" secondAttribute="centerY" id="afr-K2-rzK"/>
+                            <constraint firstItem="pSb-6y-Gvg" firstAttribute="leading" secondItem="g5B-J4-hoR" secondAttribute="leading" id="bxk-XA-b5Q"/>
+                            <constraint firstItem="8W3-ss-vlI" firstAttribute="height" secondItem="g5B-J4-hoR" secondAttribute="height" id="c4K-Qe-Qay"/>
+                            <constraint firstAttribute="trailing" secondItem="lZW-Hx-U9h" secondAttribute="trailing" constant="5" id="caf-Ik-Q3r"/>
+                            <constraint firstItem="R8E-sL-evO" firstAttribute="top" secondItem="YTb-p0-z1j" secondAttribute="top" constant="10" id="doW-y8-14e"/>
+                            <constraint firstAttribute="trailing" secondItem="ofR-rR-fj0" secondAttribute="trailing" constant="5" id="ey6-ZJ-NdR"/>
+                            <constraint firstItem="cy0-tX-dxE" firstAttribute="top" secondItem="uMI-SZ-kBr" secondAttribute="bottom" constant="10" id="g5l-mP-zrT"/>
+                            <constraint firstAttribute="trailing" secondItem="cy0-tX-dxE" secondAttribute="trailing" id="gFm-tV-mUi"/>
+                            <constraint firstItem="ofR-rR-fj0" firstAttribute="height" secondItem="pSb-6y-Gvg" secondAttribute="height" id="gez-uG-SmY"/>
+                            <constraint firstItem="tBr-8e-uCQ" firstAttribute="top" secondItem="ABw-A8-PFB" secondAttribute="bottom" constant="10" id="hl9-Ji-J4N"/>
+                            <constraint firstAttribute="trailing" secondItem="gU6-7t-scB" secondAttribute="trailing" constant="5" id="lj8-r3-Et0"/>
+                            <constraint firstItem="8W3-ss-vlI" firstAttribute="leading" secondItem="g5B-J4-hoR" secondAttribute="trailing" constant="5" id="lvH-eL-9yO"/>
+                            <constraint firstItem="cy0-tX-dxE" firstAttribute="leading" secondItem="YTb-p0-z1j" secondAttribute="leading" id="nq3-O9-z0w"/>
+                            <constraint firstItem="gU6-7t-scB" firstAttribute="height" secondItem="ABw-A8-PFB" secondAttribute="height" id="o65-jr-hn1"/>
+                            <constraint firstItem="gU6-7t-scB" firstAttribute="leading" secondItem="ABw-A8-PFB" secondAttribute="trailing" constant="5" id="rAG-JP-OcV"/>
+                            <constraint firstItem="g5B-J4-hoR" firstAttribute="leading" secondItem="R8E-sL-evO" secondAttribute="trailing" constant="10" id="tsC-ik-c8H"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="YTb-p0-z1j" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="SQQ-j0-e7J"/>
+                    <constraint firstAttribute="bottom" secondItem="YTb-p0-z1j" secondAttribute="bottom" constant="5" id="YgF-xn-ha7"/>
+                    <constraint firstAttribute="trailing" secondItem="YTb-p0-z1j" secondAttribute="trailing" id="ktm-Q8-60W"/>
+                    <constraint firstItem="YTb-p0-z1j" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ueQ-B6-dFI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="campaignName" destination="ofR-rR-fj0" id="Y01-k4-hp5"/>
+                <outlet property="checkBoxButton" destination="R8E-sL-evO" id="VCI-wz-mqM"/>
+                <outlet property="date" destination="3Af-wc-fXh" id="Y1n-RO-Xh0"/>
+                <outlet property="downloadButton" destination="uIC-g3-eVm" id="krh-VD-4ls"/>
+                <outlet property="invoiceNumber" destination="8W3-ss-vlI" id="5JL-qH-gWR"/>
+                <outlet property="resendButton" destination="TC7-5g-ztC" id="njP-Vy-X1a"/>
+                <outlet property="shareButton" destination="vfI-J0-uPe" id="YAF-Bk-WBB"/>
+                <outlet property="statusLabel" destination="lZW-Hx-U9h" id="eoj-Fk-zrR"/>
+                <outlet property="totalAmount" destination="gU6-7t-scB" id="lbJ-TI-Nbt"/>
+            </connections>
+            <point key="canvasLocation" x="-24" y="93"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="DownloadIcon" width="25" height="20"/>
+        <image name="RadioOff" width="17" height="16"/>
+        <image name="ResendEmail" width="25" height="20"/>
+        <image name="ShareIcon" width="25" height="20"/>
+    </resources>
+</document>

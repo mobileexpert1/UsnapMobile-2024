@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GOTHICB_7.TTF">
+            <string>CenturyGothic-Bold</string>
+        </array>
+        <array key="GOTHIC_9.TTF">
+            <string>CenturyGothic</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="60" id="KGk-i7-Jjw" customClass="SenderCell" customModule="Usnap" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="49O-Y6-TYz">
+                        <rect key="frame" x="128" y="5" width="192" height="49.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWr-9n-Ytb">
+                        <rect key="frame" x="131" y="5" width="179" height="27"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="CenturyGothic-Bold" family="Century Gothic" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdc-a9-DeB">
+                        <rect key="frame" x="131" y="37" width="179" height="17.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="49O-Y6-TYz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="2II-gv-9Lz"/>
+                    <constraint firstItem="vWr-9n-Ytb" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.56" id="8L8-Pl-gcJ"/>
+                    <constraint firstAttribute="bottom" secondItem="49O-Y6-TYz" secondAttribute="bottom" constant="5" id="CLu-TU-4lL"/>
+                    <constraint firstItem="kdc-a9-DeB" firstAttribute="top" secondItem="vWr-9n-Ytb" secondAttribute="bottom" constant="5" id="EYy-Qm-rs4"/>
+                    <constraint firstAttribute="trailing" secondItem="vWr-9n-Ytb" secondAttribute="trailing" constant="10" id="LXl-mR-C0t"/>
+                    <constraint firstAttribute="trailing" secondItem="49O-Y6-TYz" secondAttribute="trailing" id="MTz-vJ-2iG"/>
+                    <constraint firstItem="49O-Y6-TYz" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.6" id="PHX-px-n5v"/>
+                    <constraint firstItem="vWr-9n-Ytb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="SHh-Nn-8Yv"/>
+                    <constraint firstAttribute="bottom" secondItem="kdc-a9-DeB" secondAttribute="bottom" constant="5" id="WxY-We-zCz"/>
+                    <constraint firstAttribute="trailing" secondItem="kdc-a9-DeB" secondAttribute="trailing" constant="10" id="g3G-7x-9Kl"/>
+                    <constraint firstItem="kdc-a9-DeB" firstAttribute="width" secondItem="vWr-9n-Ytb" secondAttribute="width" id="iub-bB-ft0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="messageLabel" destination="kdc-a9-DeB" id="0cZ-F0-NaE"/>
+                <outlet property="nameLabel" destination="vWr-9n-Ytb" id="sur-NC-fkv"/>
+                <outlet property="senderImage" destination="49O-Y6-TYz" id="yrg-pr-Uyw"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="60"/>
+        </tableViewCell>
+    </objects>
+</document>

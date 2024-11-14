@@ -1,0 +1,1368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A00D12A1-1BAE-4DCB-B04B-499D7C69CBAF"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56B20BED-68D3-411F-83CA-985A31B7A3EE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Store/CreditApiStore.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "getCreditHistory(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7DB91A52-285F-4278-9B15-4B084F6A20F1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/User Profile/UserProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "barButtonDidTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F34D1F7-AFAB-4C49-9FAD-4ACB8C08CB7D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Home VC/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1775"
+            endingLineNumber = "1775"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FDC12BF6-1A9B-4E1E-AEB1-4AA0E8775FA6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Home VC/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1777"
+            endingLineNumber = "1777"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43686348-A55A-4ADE-AD48-1EF7669D76E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/New Group/CampaignDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "873"
+            endingLineNumber = "873"
+            landmarkName = "viewInvoiceClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70EA44E3-CA32-4BB6-9CBC-9449C0555212"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/New Group/CampaignDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2059"
+            endingLineNumber = "2059"
+            landmarkName = "editPhotoClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72C29B72-6AD3-4B46-9515-1A788E9F676F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/New Group/CampaignDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "361"
+            endingLineNumber = "361"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1EA50B54-FEE6-4208-A934-99D23BFF639A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/New Group/CampaignDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "789"
+            endingLineNumber = "789"
+            landmarkName = "addVideoButtonClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44991133-1825-4B92-80C8-EC2C1B2EE3C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/New Group/CampaignDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "801"
+            endingLineNumber = "801"
+            landmarkName = "messageButtonClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B4B1DA6-F198-4F91-9B31-856D2FDBCFE7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/New Group/CampaignDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "830"
+            endingLineNumber = "830"
+            landmarkName = "saveOnlyClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF2EDC2D-11BA-4CA5-ADCD-4EC6E7296349"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Views/Pop Up/Create Campaign PopUp/CrateCampaignPopUpViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
+            landmarkName = "saveButtonClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE246494-DA3F-4BA4-BE1E-C69052195AE6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Views/Pop Up/Create Campaign PopUp/CrateCampaignPopUpViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
+            landmarkName = "saveButtonClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9594BD24-F33D-476E-B748-0F43CF6D9204"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Views/Pop Up/Create Campaign PopUp/CrateCampaignPopUpViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
+            landmarkName = "saveButtonClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95DF24C8-BC60-4A4A-BD95-6CC812DCEF35"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Home VC/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2788"
+            endingLineNumber = "2788"
+            landmarkName = "saveDataToExistingCamp()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "95DF24C8-BC60-4A4A-BD95-6CC812DCEF35 - 940b103014e29088"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in Usnap.HomeViewController.saveDataToExistingCamp() -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/Home%20VC/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2788"
+                  endingLineNumber = "2788"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "95DF24C8-BC60-4A4A-BD95-6CC812DCEF35 - d4370277d0976fc2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;) -&gt; () in closure #1 @Swift.MainActor () -&gt; () in Usnap.HomeViewController.saveDataToExistingCamp() -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/Home%20VC/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2789"
+                  endingLineNumber = "2789"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49024593-BE78-4D46-999E-08CE50B136D1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Home VC/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2790"
+            endingLineNumber = "2790"
+            landmarkName = "saveDataToExistingCamp()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "49024593-BE78-4D46-999E-08CE50B136D1 - d4370277d0976fa3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;) -&gt; () in closure #1 @Swift.MainActor () -&gt; () in Usnap.HomeViewController.saveDataToExistingCamp() -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/Home%20VC/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2790"
+                  endingLineNumber = "2790"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "49024593-BE78-4D46-999E-08CE50B136D1 - d4370277d0976fa3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;) -&gt; () in closure #1 @Swift.MainActor () -&gt; () in Usnap.HomeViewController.saveDataToExistingCamp() -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/Home%20VC/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2790"
+                  endingLineNumber = "2790"
+                  offsetFromSymbolStart = "661">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92F8CCF9-566E-44DF-8125-2F38C792A3CB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Home VC/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2789"
+            endingLineNumber = "2789"
+            landmarkName = "saveDataToExistingCamp()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C4D7C86-8F50-4043-AA9F-D260F4B4374D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Home VC/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2838"
+            endingLineNumber = "2838"
+            landmarkName = "saveDataToExistingCampign()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7C4D7C86-8F50-4043-AA9F-D260F4B4374D - d61fe8646d0d9366"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in Usnap.HomeViewController.saveDataToExistingCampign() -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/Home%20VC/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2838"
+                  endingLineNumber = "2838"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "7C4D7C86-8F50-4043-AA9F-D260F4B4374D - c9b3315465227e6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;) -&gt; () in closure #1 @Swift.MainActor () -&gt; () in Usnap.HomeViewController.saveDataToExistingCampign() -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/Home%20VC/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2839"
+                  endingLineNumber = "2839"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D223D9E3-FBE8-4168-92CC-131EA9D1FDC7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Home VC/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2839"
+            endingLineNumber = "2839"
+            landmarkName = "saveDataToExistingCampign()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62EE8480-4703-4FF4-B395-6E21BF484B84"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Home VC/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2840"
+            endingLineNumber = "2840"
+            landmarkName = "saveDataToExistingCampign()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "62EE8480-4703-4FF4-B395-6E21BF484B84 - c9b3315465227e0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;) -&gt; () in closure #1 @Swift.MainActor () -&gt; () in Usnap.HomeViewController.saveDataToExistingCampign() -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/Home%20VC/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2840"
+                  endingLineNumber = "2840"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "62EE8480-4703-4FF4-B395-6E21BF484B84 - c9b3315465227e0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;) -&gt; () in closure #1 @Swift.MainActor () -&gt; () in Usnap.HomeViewController.saveDataToExistingCampign() -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/Home%20VC/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2840"
+                  endingLineNumber = "2840"
+                  offsetFromSymbolStart = "661">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4830E602-E2DE-4499-9695-91110603BF3E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Home VC/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2885"
+            endingLineNumber = "2885"
+            landmarkName = "uploadData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4830E602-E2DE-4499-9695-91110603BF3E - ce7ced108b699634"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Usnap.HomeViewController.uploadData() -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/Home%20VC/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2885"
+                  endingLineNumber = "2885"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  uuid = "4830E602-E2DE-4499-9695-91110603BF3E - d2a723b5501577a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;) -&gt; () in Usnap.HomeViewController.uploadData() -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/Home%20VC/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2886"
+                  endingLineNumber = "2886"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E113DF6-7629-48DC-8279-BDE5A03D1C3F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Home VC/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2886"
+            endingLineNumber = "2886"
+            landmarkName = "uploadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "819B912A-7415-4A98-B1FC-CA06977778AD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Home VC/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2887"
+            endingLineNumber = "2887"
+            landmarkName = "uploadData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "819B912A-7415-4A98-B1FC-CA06977778AD - d2a723b5501577ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;) -&gt; () in Usnap.HomeViewController.uploadData() -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/Home%20VC/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2887"
+                  endingLineNumber = "2887"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "819B912A-7415-4A98-B1FC-CA06977778AD - d2a723b5501577ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;) -&gt; () in Usnap.HomeViewController.uploadData() -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/Home%20VC/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2887"
+                  endingLineNumber = "2887"
+                  offsetFromSymbolStart = "661">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "325D952B-1BA5-4A4B-87D3-4493946DAA46"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/New Group/CampaignDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2293"
+            endingLineNumber = "2293"
+            landmarkName = "saveimageToServer(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "325D952B-1BA5-4A4B-87D3-4493946DAA46 - 93f7b0bab6deea2a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Usnap.CampaignDetailViewController.saveimageToServer(__C.NSArray, __C.UIImagePickerControllerSourceType) -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/New%20Group/CampaignDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2293"
+                  endingLineNumber = "2293"
+                  offsetFromSymbolStart = "2514">
+               </Location>
+               <Location
+                  uuid = "325D952B-1BA5-4A4B-87D3-4493946DAA46 - 8309b7fff29daf0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;) -&gt; () in Usnap.CampaignDetailViewController.saveimageToServer(__C.NSArray, __C.UIImagePickerControllerSourceType) -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/New%20Group/CampaignDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2294"
+                  endingLineNumber = "2294"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1DD1FDEA-D359-4FEA-B6B6-6238E03E4265"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/New Group/CampaignDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2294"
+            endingLineNumber = "2294"
+            landmarkName = "saveimageToServer(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1DD1FDEA-D359-4FEA-B6B6-6238E03E4265 - 8309b7fff29daf0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;) -&gt; () in Usnap.CampaignDetailViewController.saveimageToServer(__C.NSArray, __C.UIImagePickerControllerSourceType) -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/New%20Group/CampaignDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2294"
+                  endingLineNumber = "2294"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "1DD1FDEA-D359-4FEA-B6B6-6238E03E4265 - 8309b7fff29daf0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;) -&gt; () in Usnap.CampaignDetailViewController.saveimageToServer(__C.NSArray, __C.UIImagePickerControllerSourceType) -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/New%20Group/CampaignDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "2294"
+                  endingLineNumber = "2294"
+                  offsetFromSymbolStart = "441">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF06A967-029C-4C0B-A4D6-C3884EB373B8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/New Group/CampaignDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1365"
+            endingLineNumber = "1365"
+            landmarkName = "uploadDataToServer()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AF06A967-029C-4C0B-A4D6-C3884EB373B8 - 5e9931a344d14dfe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Usnap.CampaignDetailViewController.uploadDataToServer() -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/New%20Group/CampaignDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1365"
+                  endingLineNumber = "1365"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  uuid = "AF06A967-029C-4C0B-A4D6-C3884EB373B8 - 431921e7995cbbaf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;) -&gt; () in Usnap.CampaignDetailViewController.uploadDataToServer() -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/New%20Group/CampaignDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1366"
+                  endingLineNumber = "1366"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3DCD2D1-7EDA-4392-93A7-C54CEC73C617"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/New Group/CampaignDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1366"
+            endingLineNumber = "1366"
+            landmarkName = "uploadDataToServer()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F90C242A-C2DE-4365-BEEC-53E662C6BC7B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/New Group/CampaignDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1367"
+            endingLineNumber = "1367"
+            landmarkName = "uploadDataToServer()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F90C242A-C2DE-4365-BEEC-53E662C6BC7B - 431921e7995cbb88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;) -&gt; () in Usnap.CampaignDetailViewController.uploadDataToServer() -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/New%20Group/CampaignDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1367"
+                  endingLineNumber = "1367"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "F90C242A-C2DE-4365-BEEC-53E662C6BC7B - 431921e7995cbb88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;) -&gt; () in Usnap.CampaignDetailViewController.uploadDataToServer() -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/New%20Group/CampaignDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1367"
+                  endingLineNumber = "1367"
+                  offsetFromSymbolStart = "661">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD1DCAF3-8257-4FFC-BF68-14C79D616AAB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Media Collection/MediaCollectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "517"
+            endingLineNumber = "517"
+            landmarkName = "proceedButtonClick(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AD1DCAF3-8257-4FFC-BF68-14C79D616AAB - c7120c05c266309b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Usnap.MediaCollectionViewController.proceedButtonClick(Any) -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/Media%20Collection/MediaCollectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "517"
+                  endingLineNumber = "517"
+                  offsetFromSymbolStart = "3833">
+               </Location>
+               <Location
+                  uuid = "AD1DCAF3-8257-4FFC-BF68-14C79D616AAB - 6b4710cc66a1ea3a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;) -&gt; () in Usnap.MediaCollectionViewController.proceedButtonClick(Any) -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/Media%20Collection/MediaCollectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "518"
+                  endingLineNumber = "518"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4671DD3-E6F3-4FAC-914D-A3DD3D777431"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Media Collection/MediaCollectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "518"
+            endingLineNumber = "518"
+            landmarkName = "proceedButtonClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE86C2DA-FD2A-4D49-AB9F-9C242985F48D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Media Collection/MediaCollectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "519"
+            endingLineNumber = "519"
+            landmarkName = "proceedButtonClick(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BE86C2DA-FD2A-4D49-AB9F-9C242985F48D - 6b4710cc66a1ea5b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;) -&gt; () in Usnap.MediaCollectionViewController.proceedButtonClick(Any) -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/Media%20Collection/MediaCollectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "519"
+                  endingLineNumber = "519"
+                  offsetFromSymbolStart = "474">
+               </Location>
+               <Location
+                  uuid = "BE86C2DA-FD2A-4D49-AB9F-9C242985F48D - 6b4710cc66a1ea5b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;) -&gt; () in Usnap.MediaCollectionViewController.proceedButtonClick(Any) -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Controllers/Media%20Collection/MediaCollectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "519"
+                  endingLineNumber = "519"
+                  offsetFromSymbolStart = "815">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A61C0D2C-F9C1-4FBD-AB48-12181BBA4549"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Views/Pop Up/Create Campaign PopUp/CrateCampaignPopUpViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "280"
+            endingLineNumber = "280"
+            landmarkName = "saveButtonClick(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A61C0D2C-F9C1-4FBD-AB48-12181BBA4549 - 216787228f8b1c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Usnap.CrateCampaignPopUpViewController.saveButtonClick(Any) -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Views/Pop%20Up/Create%20Campaign%20PopUp/CrateCampaignPopUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "280"
+                  endingLineNumber = "280"
+                  offsetFromSymbolStart = "5392">
+               </Location>
+               <Location
+                  uuid = "A61C0D2C-F9C1-4FBD-AB48-12181BBA4549 - 232b525b7eb4955b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;) -&gt; () in Usnap.CrateCampaignPopUpViewController.saveButtonClick(Any) -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Views/Pop%20Up/Create%20Campaign%20PopUp/CrateCampaignPopUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "281"
+                  endingLineNumber = "281"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73D492F2-4A8A-49FA-8A57-6CD9C7725C71"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Views/Pop Up/Create Campaign PopUp/CrateCampaignPopUpViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "281"
+            endingLineNumber = "281"
+            landmarkName = "saveButtonClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F34BC007-112F-4D96-B802-527E03917A84"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Views/Pop Up/Create Campaign PopUp/CrateCampaignPopUpViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "282"
+            endingLineNumber = "282"
+            landmarkName = "saveButtonClick(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F34BC007-112F-4D96-B802-527E03917A84 - 232b525b7eb4953c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;) -&gt; () in Usnap.CrateCampaignPopUpViewController.saveButtonClick(Any) -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Views/Pop%20Up/Create%20Campaign%20PopUp/CrateCampaignPopUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "282"
+                  endingLineNumber = "282"
+                  offsetFromSymbolStart = "474">
+               </Location>
+               <Location
+                  uuid = "F34BC007-112F-4D96-B802-527E03917A84 - 232b525b7eb4953c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;) -&gt; () in Usnap.CrateCampaignPopUpViewController.saveButtonClick(Any) -&gt; ()"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Views/Pop%20Up/Create%20Campaign%20PopUp/CrateCampaignPopUpViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "282"
+                  endingLineNumber = "282"
+                  offsetFromSymbolStart = "815">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE022078-336F-4B1C-9A40-9E3F0644D279"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Views/Pop Up/Create Campaign PopUp/CrateCampaignPopUpViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "210"
+            endingLineNumber = "210"
+            landmarkName = "saveButtonClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58D6F21D-CCF6-4C0F-970D-BD9429E59742"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Views/Pop Up/Create Campaign PopUp/CrateCampaignPopUpViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "saveButtonClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EDBDCC27-5ABD-45EA-A9EC-3CA8867EE0DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Views/Pop Up/Create Campaign PopUp/CrateCampaignPopUpViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
+            landmarkName = "saveButtonClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6A5B254-97C9-4DA3-A7B4-24CACF5FD482"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Models/New Campaign Details/NewCampaignDetailresult.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "dictionaryRepresentation()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C6A5B254-97C9-4DA3-A7B4-24CACF5FD482 - 7d4cb1f4c9358178"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Usnap.NewCampaignDetailresult.dictionaryRepresentation() -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Models/New%20Campaign%20Details/NewCampaignDetailresult.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "4422">
+               </Location>
+               <Location
+                  uuid = "C6A5B254-97C9-4DA3-A7B4-24CACF5FD482 - 7d4cb1f4c9358178"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Usnap.NewCampaignDetailresult.dictionaryRepresentation() -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "Usnap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/RMN/Project/Nitin%20Projects/Usnap/UsnapMobile/Usnap/Models/New%20Campaign%20Details/NewCampaignDetailresult.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "4482">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "424C2F55-FC2B-43CE-A6DA-910104B2ECD3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Completed Campaign/CompletedCampaignViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "471"
+            endingLineNumber = "471"
+            landmarkName = "editButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9B3AF05-B162-4B14-ADB8-BA6F5F77142A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Completed Campaign/CompletedCampaignViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "472"
+            endingLineNumber = "472"
+            landmarkName = "editButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F8C7146-A8E4-4AE4-B90E-577FDB8988E4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Completed Campaign/CompletedCampaignViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "473"
+            endingLineNumber = "473"
+            landmarkName = "editButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "787B7405-3F94-4771-81C3-6A72EEF23E3D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Revise photo/RevisePhotoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32969484-28A6-4A26-A213-AF926D33BB03"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Home VC/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2059"
+            endingLineNumber = "2059"
+            landmarkName = "saveButtonClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98A279BC-99E0-4B48-9DD6-B2432ABAB275"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Home VC/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2620"
+            endingLineNumber = "2620"
+            landmarkName = "uploadDataToServer()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE964E0D-8AAB-46C3-B4A3-14A7043E4620"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Home VC/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2621"
+            endingLineNumber = "2621"
+            landmarkName = "uploadDataToServer()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74939A29-2744-4684-9511-1EA4AD7C218D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Home VC/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2624"
+            endingLineNumber = "2624"
+            landmarkName = "uploadDataToServer()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF329792-9535-4ECB-8148-7D8E9CAA2AF0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Home VC/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2623"
+            endingLineNumber = "2623"
+            landmarkName = "uploadDataToServer()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "530827B8-4CCC-410D-B4B2-3A3AFF006F47"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Home VC/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2835"
+            endingLineNumber = "2835"
+            landmarkName = "saveDataToExistingCampign()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63FB881E-A54D-4EC7-86C4-CD803C966BC9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Home VC/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1119"
+            endingLineNumber = "1119"
+            landmarkName = "processGaleryImages(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1365B8BD-3C6E-421B-A5A8-E57CD774C87E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Home VC/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1122"
+            endingLineNumber = "1122"
+            landmarkName = "processGaleryImages(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13EF61FF-781F-43E7-8AC5-0B659F705845"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/Home VC/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2048"
+            endingLineNumber = "2048"
+            landmarkName = "saveButtonClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2392E64-92BE-4784-ABCD-E68F873A56B3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/New Group/CampaignDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "570"
+            endingLineNumber = "570"
+            landmarkName = "getCampaignDetails()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB5590D8-5D00-41F7-93C9-AC30257A02EA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/New Group/CampaignDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "569"
+            endingLineNumber = "569"
+            landmarkName = "getCampaignDetails()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69A2839F-EE30-4F37-81DE-BA75018F43E1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/New Group/CampaignDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "810"
+            endingLineNumber = "810"
+            landmarkName = "urgentDeliveryClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B2C4471-335B-4BE8-8D37-5A5DD36B4B90"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/New Group/CampaignDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "820"
+            endingLineNumber = "820"
+            landmarkName = "urgentDeliveryClick(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14B85DD0-B9F7-4ED4-A2EC-777B7112D441"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Usnap/Controllers/New Group/CampaignDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "255"
+            endingLineNumber = "255"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
